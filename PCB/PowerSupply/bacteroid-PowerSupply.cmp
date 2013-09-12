@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-25)-stable date = Mittwoch, 11. September 2013 00:37:51
+
+BeginCmp
+TimeStamp = /522F8E8A;
+Reference = C1;
+ValeurCmp = 330nF;
+IdModule  = C9;
+EndCmp
+
+BeginCmp
+TimeStamp = /522F8EA8;
+Reference = C2;
+ValeurCmp = 330nF;
+IdModule  = C9;
+EndCmp
+
+BeginCmp
+TimeStamp = /522F8EC6;
+Reference = C3;
+ValeurCmp = 330nF;
+IdModule  = C9;
+EndCmp
+
+BeginCmp
+TimeStamp = /522F8EE4;
+Reference = C4;
+ValeurCmp = 330nF;
+IdModule  = C9;
+EndCmp
+
+BeginCmp
+TimeStamp = /522F8E99;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = C4;
+EndCmp
+
+BeginCmp
+TimeStamp = /522F8EB7;
+Reference = C6;
+ValeurCmp = 100nF;
+IdModule  = C4;
+EndCmp
+
+BeginCmp
+TimeStamp = /522F8ED5;
+Reference = C7;
+ValeurCmp = 100nF;
+IdModule  = C4;
+EndCmp
+
+BeginCmp
+TimeStamp = /522F8EF3;
+Reference = C8;
+ValeurCmp = 100nF;
+IdModule  = C4;
+EndCmp
+
+BeginCmp
+TimeStamp = /522F93F9;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /522F90CC;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /522F911E;
+Reference = P3;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /522F8E43;
+Reference = U1;
+ValeurCmp = LM7805CT;
+IdModule  = to220_std_11cw;
+EndCmp
+
+BeginCmp
+TimeStamp = /522F8E52;
+Reference = U2;
+ValeurCmp = LM7805CT;
+IdModule  = to220_std_11cw;
+EndCmp
+
+BeginCmp
+TimeStamp = /522F8E65;
+Reference = U3;
+ValeurCmp = LM7809CT;
+IdModule  = to220_std_11cw;
+EndCmp
+
+BeginCmp
+TimeStamp = /522F8E7B;
+Reference = U4;
+ValeurCmp = LM7812CT;
+IdModule  = to220_std_11cw;
+EndCmp
+
+EndListe
