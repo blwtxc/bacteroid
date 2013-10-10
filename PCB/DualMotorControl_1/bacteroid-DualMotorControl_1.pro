@@ -1,11 +1,6 @@
-update=Freitag, 13. September 2013 01:08:22
+update=Sonntag, 06. Oktober 2013 15:48:25
 version=1
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [pcbnew]
 version=1
 LastNetListRead=
@@ -26,7 +21,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -43,12 +37,17 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
+LibName17=om_components/C4
+LibName18=om_components/C9
+LibName19=st-microelectronics
+LibName20=heatsink-aavid
+LibDir=
 [general]
 version=1
 [eeschema]
 version=1
 LibDir=
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -84,7 +83,15 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=om_components/L298
-LibName32=om_components/pumh9
-LibName33=om_components/sn74hc14qdrq1
-LibName34=st-microelectronics
+LibName31=om_components/pumh9
+LibName32=om_components/sn74hc14qdrq1
+LibName33=st-microelectronics
+LibName34=motordrv
+LibName35=divers
+LibName36=l298
+LibName37=heatsink-aavid
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
