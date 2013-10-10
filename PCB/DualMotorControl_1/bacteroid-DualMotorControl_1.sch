@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sonntag, 06. Oktober 2013 17:10:19
+EESchema Schematic File Version 2  date Donnerstag, 10. Oktober 2013 21:19:51
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -43,7 +43,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "6 oct 2013"
+Date "10 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -934,26 +934,6 @@ Wire Wire Line
 	9500 2850 9400 2850
 Wire Wire Line
 	9500 3450 9400 3450
-Wire Wire Line
-	8150 2500 8400 2500
-Wire Wire Line
-	8400 2500 8400 2250
-Wire Wire Line
-	8150 2600 8400 2600
-Wire Wire Line
-	8400 2600 8400 2850
-Wire Wire Line
-	8150 2400 8300 2400
-Wire Wire Line
-	8300 2400 8300 1650
-Wire Wire Line
-	8300 1650 8400 1650
-Wire Wire Line
-	8150 2700 8300 2700
-Wire Wire Line
-	8300 2700 8300 3450
-Wire Wire Line
-	8300 3450 8400 3450
 Connection ~ 9500 2250
 Connection ~ 9500 2850
 Wire Wire Line
@@ -1303,11 +1283,11 @@ Wire Wire Line
 Wire Wire Line
 	8900 1650 8900 1850
 Wire Wire Line
-	8900 1850 9700 1850
+	8850 1850 9700 1850
 Wire Wire Line
 	9700 1850 9700 2250
 Wire Wire Line
-	8900 2250 8900 2050
+	8900 2050 8900 2500
 Wire Wire Line
 	8900 2050 9600 2050
 Wire Wire Line
@@ -1315,13 +1295,13 @@ Wire Wire Line
 Wire Wire Line
 	8900 2850 8900 3050
 Wire Wire Line
-	8900 3050 9600 3050
+	8250 3050 9600 3050
 Wire Wire Line
 	9600 3050 9600 2650
 Wire Wire Line
 	8900 3450 8900 3250
 Wire Wire Line
-	8900 3250 9700 3250
+	8200 3250 9700 3250
 Wire Wire Line
 	9700 3250 9700 2850
 Text GLabel 9400 5250 0    60   Input ~ 0
@@ -1455,4 +1435,45 @@ Wire Wire Line
 	2400 900  3900 900 
 Wire Wire Line
 	3900 900  3900 1000
+$Comp
+L GND #PWR?
+U 1 1 5257010F
+P 8350 3600
+F 0 "#PWR?" H 8350 3600 30  0001 C CNN
+F 1 "GND" H 8350 3530 30  0001 C CNN
+F 2 "" H 8350 3600 60  0000 C CNN
+F 3 "" H 8350 3600 60  0000 C CNN
+	1    8350 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 8900 3250
+Wire Wire Line
+	8150 2700 8200 2700
+Wire Wire Line
+	8200 2700 8200 3250
+Wire Wire Line
+	8400 3450 8350 3450
+Wire Wire Line
+	8350 1650 8350 3600
+Connection ~ 8900 3050
+Wire Wire Line
+	8150 2600 8250 2600
+Wire Wire Line
+	8250 2600 8250 3050
+Wire Wire Line
+	8900 2500 8150 2500
+Connection ~ 8900 1850
+Wire Wire Line
+	8150 2400 8850 2400
+Wire Wire Line
+	8850 2400 8850 1850
+Connection ~ 8350 3450
+Wire Wire Line
+	8400 1650 8350 1650
+Connection ~ 8350 2850
+Connection ~ 8350 2250
+Wire Wire Line
+	8400 2250 8350 2250
+Wire Wire Line
+	8400 2850 8350 2850
 $EndSCHEMATC

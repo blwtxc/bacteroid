@@ -1,6 +1,6 @@
-update=Sonntag, 06. Oktober 2013 15:48:25
+update=Donnerstag, 10. Oktober 2013 20:21:59
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -44,6 +44,11 @@ LibName20=heatsink-aavid
 LibDir=
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -90,8 +95,3 @@ LibName34=motordrv
 LibName35=divers
 LibName36=l298
 LibName37=heatsink-aavid
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
